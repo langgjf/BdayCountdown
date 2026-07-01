@@ -10,13 +10,17 @@ function triggerBirthday() {
 
     document.querySelector(".container").innerHTML = `
 
-        <img src="spoiledRabbit.gif" class="gif">
+    <img src="spoiledRabbit.gif" class="gif">
 
-        <h1 class="birthday-title">
-    ✨ Happy Birthdayyy Baby Princess Sharkie Rhea!! ✨
-        </h1>
+    <h1 class="birthday-title">
+        ✨ Happy Birthdayyy Baby Princess Sharkie Rhea!! ✨
+    </h1>
 
-    `;
+    <p class="birthday-subtitle">
+        🎂 Today is all about you! Have the most amazing birthday! 🎉
+    </p>
+
+`;
 
     startFireworks();
 
